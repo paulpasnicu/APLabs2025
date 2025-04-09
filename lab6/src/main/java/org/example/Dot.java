@@ -1,9 +1,12 @@
 package org.example;
 
+import java.io.Serializable;
+
 /**
  * Represents a dot with x and y coordinates.
  */
-public class Dot {
+public class Dot implements Serializable {
+    private static final long serialVersionUID = 1L;
     private int x;
     private int y;
 
